@@ -523,3 +523,45 @@ h1 {
     overflow-x: hidden;
   }
 }
+/* contact us */
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+.location iframe {
+  width: 100%;
+}
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+.contact-us-col {
+  color: #000;
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.contact-us-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-us-col div .fa {
+  font-size: 28px;
+  color: #9e1c1c;
+  margin: 10px;
+  margin-right: 30px;
+}
+.contact-us-col div p {
+  padding: 0;
+  line-height: 2em;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.contact-us-col div h5 {
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: #091625;
+  font-weight: 500;
+}
