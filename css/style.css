@@ -391,3 +391,177 @@ h1 {
 .fa-heart-o {
   color: #9e1c1c;
 }
+
+/* About Us Page */
+
+.sub-header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(7, 15, 44, 0.5), rgba(7, 15, 44, 0.5)),
+    url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.about-us {
+  color: black;
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-us-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+  color: black;
+}
+.about-us-col img {
+  width: 100%;
+}
+.about-us-col h1 {
+  padding-top: 0;
+}
+.about-us-col p {
+  padding: 15px 0 25px;
+  font-weight: 300;
+  line-height: 2em;
+}
+.blue-btn {
+  border: 1px solid #070f2c;
+  background-color: transparent;
+  color: #070f2c;
+}
+.blue-btn:hover {
+  color: #fff;
+}
+/* media query for about us */
+
+@media (max-width: 768px) {
+  .about-us-col h1 {
+    margin-top: -80px;
+  }
+}
+
+/* blog */
+.blog-content {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+.blog-left-col {
+  flex-basis: 65%;
+}
+.blog-left-col img {
+  width: 100%;
+}
+.blog-left-col h2 {
+  color: black;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.blog-left-col p {
+  color: black;
+  font-weight: 300;
+  line-height: 2em;
+}
+.blog-right-col {
+  flex-basis: 32%;
+  color: black;
+}
+.blog-right-col h3 {
+  background: #070f2c;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.blog-right-col div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.comment-box {
+  border: 1px solid #cac0c0;
+  margin: 50px 0;
+  padding: 10px 20px;
+}
+.comment-box h3 {
+  color: #091625;
+  text-align: left;
+}
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #cac0c0;
+}
+
+.comment-form button {
+  margin: 15px 0;
+}
+
+/* media query for our blog */
+
+@media (max-width: 768px) {
+  .sub-header h1 {
+    line-height: 2em;
+    font-size: 30px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+/* contact us */
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+.location iframe {
+  width: 100%;
+}
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+.contact-us-col {
+  color: #000;
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.contact-us-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-us-col div .fa {
+  font-size: 28px;
+  color: #9e1c1c;
+  margin: 10px;
+  margin-right: 30px;
+}
+.contact-us-col div p {
+  padding: 0;
+  line-height: 2em;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.contact-us-col div h5 {
+  font-size: 17px;
+  margin-bottom: 5px;
+  color: #091625;
+  font-weight: 500;
+}
