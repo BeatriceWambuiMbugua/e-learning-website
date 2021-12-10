@@ -391,3 +391,17 @@ h1 {
 .fa-heart-o {
   color: #9e1c1c;
 }
+
+/* About Us Page */
+
+.sub-header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(7, 15, 44, 0.5), rgba(7, 15, 44, 0.5)),
+    url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
