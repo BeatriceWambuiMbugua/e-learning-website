@@ -179,3 +179,61 @@ h1 {
     flex-direction: column;
   }
 }
+
+/* campus */
+.campus {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.campus h3 {
+  font-weight: 600;
+  font-size: 34px;
+}
+.campus p {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px;
+  line-height: 3em;
+}
+.campus-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.campus-col img {
+  width: 100%;
+  display: block;
+}
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover {
+  background: rgba(202, 191, 191, 0.6);
+}
+.layer h3 {
+  color: #091625;
+  width: 100%;
+  font-weight: 500;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 0.5s;
+}
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
