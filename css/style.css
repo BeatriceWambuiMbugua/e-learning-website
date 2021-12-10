@@ -237,3 +237,42 @@ h1 {
   bottom: 49%;
   opacity: 1;
 }
+
+/* facilities */
+.facilities {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+.facilities h1 {
+  font-weight: 600;
+  font-size: 34px;
+}
+.facilities p {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px;
+  line-height: 3em;
+}
+.facilities-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  color: black;
+}
+.facilities-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+.facilities-col h3 {
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+.facilities-col p {
+  padding: 0;
+  text-align: left;
+  line-height: 2em;
+}
