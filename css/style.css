@@ -405,3 +405,66 @@ h1 {
   position: relative;
   color: #fff;
 }
+
+.about-us {
+  color: black;
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.about-us-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+  color: black;
+}
+.about-us-col img {
+  width: 100%;
+}
+.about-us-col h1 {
+  padding-top: 0;
+}
+.about-us-col p {
+  padding: 15px 0 25px;
+  font-weight: 300;
+  line-height: 2em;
+}
+.blue-btn {
+  border: 1px solid #070f2c;
+  background-color: transparent;
+  color: #070f2c;
+}
+.blue-btn:hover {
+  color: #fff;
+}
+/* media query for about us */
+
+@media (max-width: 768px) {
+  .about-us-col h1 {
+    margin-top: -80px;
+  }
+}
+
+/* blog */
+.blog-content {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+.blog-left-col {
+  flex-basis: 65%;
+}
+.blog-left-col img {
+  width: 100%;
+}
+.blog-left-col h2 {
+  color: black;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.blog-left-col p {
+  color: black;
+  font-weight: 300;
+  line-height: 2em;
+}
